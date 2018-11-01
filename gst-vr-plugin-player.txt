@@ -1,0 +1,35 @@
+myfilter_init.
+gst_my_filter_class_init.
+gst_my_filter_init.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+Now playing: ./../video/a.h264
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_src_query.
+gst_my_filter_change_state.
+gst_my_filter_change_state.
+Running...
+Dynamic pad created, linking demuxer/decoder demuxer name(video_0).
+pad_type(video/x-h264), which is not video/x-raw.
+ Link succeeded (type 'video/x-h264').
+gst_my_filter_sink_event.
+gst_my_filter_sink_event.
+gst_my_filter_sink_event.
+gst_my_filter_sink_event.
+gst_my_filter_sink_event.
+gst_my_filter_src_query.
+gst_my_filter_change_state.
+gst_my_filter_chain<276> max(47.018000ms) min(-0.001000ms) avg(13.591362ms)

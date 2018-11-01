@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/example01.dir/example01-simple-initialization.o  -o ../.build/bin/example01  -L/home/ldf/workspace/gstreamer/gst-example/.build/lib -Wl,-rpath,/home/ldf/workspace/gstreamer/gst-example/.build/lib -lpthread -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 -ldirectfb 

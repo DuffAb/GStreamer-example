@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG  -rdynamic CMakeFiles/example04.dir/example04-use_element01.o  -o ../.build/bin/example04  -L/home/ldf/workspace/gstreamer/gst-example/.build/lib -Wl,-rpath,/home/ldf/workspace/gstreamer/gst-example/.build/lib -lpthread -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 -ldirectfb 

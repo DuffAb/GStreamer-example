@@ -1,0 +1,25 @@
+ldf@ldf:~/workspace/gstreamer/gst-example$ ./.build/bin/example-dfbvideosink 2>1gst_dfbvideosink_class_init
+gst_dfbvideosink_navigation_init
+gst_dfbvideosink_colorbalance_init
+gst_dfbvideosink_init
+gst_dfbvideosink_set_property
+gst_dfbvideosink_getcaps
+gst_dfbvideosink_getcaps
+gst_dfbvideosink_change_state
+gst_dfbvideosink_change_state GST_STATE_CHANGE_NULL_TO_READY
+gst_dfbvideosink_change_state !dfbvideosink->setup == true
+gst_dfbvideosink_setup
+dfbvideosink->ext_surface != NULL
+gst_dfbvideosink_change_state
+gst_dfbvideosink_getcaps
+gst_dfbvideosink_get_caps_from_format
+gst_dfbvideosink_getcaps
+gst_dfbvideosink_get_caps_from_format
+gst_dfbvideosink_setcaps
+gst_dfbvideosink_get_format_from_caps
+gst_dfb_buffer_pool_new
+gst_dfb_buffer_pool_class_init
+gst_dfb_buffer_pool_set_config
+gst_dfbvideosink_get_format_from_caps
+dfbpool->dfbvideosink->dfb == NULL
+Segmentation fault (core dumped)

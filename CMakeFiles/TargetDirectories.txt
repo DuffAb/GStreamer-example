@@ -1,0 +1,14 @@
+/home/ldf/workspace/gstreamer/gst-example/CMakeFiles/rebuild_cache.dir
+/home/ldf/workspace/gstreamer/gst-example/CMakeFiles/edit_cache.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/rebuild_cache.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/edit_cache.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/directfbtext.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example-dfbvideosink.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/gst-vr-plugin-player.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/first-application.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example01.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example02.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example0301.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example0302.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example04.dir
+/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example05.dir
