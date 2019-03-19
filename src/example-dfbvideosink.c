@@ -63,7 +63,7 @@ main (int argc, char *argv[])
     printf("primary address (%p)\n", primary);
     return 0;
   }
-  
+
 
   /* Adding elements to the pipeline */
   gst_bin_add_many (GST_BIN (pipeline), src, sink, NULL);
