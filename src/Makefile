@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/ldf/workspace/mygstreamer/GStreamer-example
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,36 +111,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/directfbtext.dir/rule:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/directfbtext.dir/rule
-.PHONY : src/CMakeFiles/directfbtext.dir/rule
-
-# Convenience name for target.
-directfbtext: src/CMakeFiles/directfbtext.dir/rule
-
-.PHONY : directfbtext
-
-# fast build rule for target.
-directfbtext/fast:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/build
-.PHONY : directfbtext/fast
-
-# Convenience name for target.
-src/CMakeFiles/example-dfbvideosink.dir/rule:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example-dfbvideosink.dir/rule
-.PHONY : src/CMakeFiles/example-dfbvideosink.dir/rule
-
-# Convenience name for target.
-example-dfbvideosink: src/CMakeFiles/example-dfbvideosink.dir/rule
-
-.PHONY : example-dfbvideosink
-
-# fast build rule for target.
-example-dfbvideosink/fast:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/build
-.PHONY : example-dfbvideosink/fast
-
-# Convenience name for target.
 src/CMakeFiles/gst-vr-plugin-player.dir/rule:
 	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/gst-vr-plugin-player.dir/rule
 .PHONY : src/CMakeFiles/gst-vr-plugin-player.dir/rule
@@ -156,19 +126,124 @@ gst-vr-plugin-player/fast:
 .PHONY : gst-vr-plugin-player/fast
 
 # Convenience name for target.
-src/CMakeFiles/first-application.dir/rule:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/first-application.dir/rule
-.PHONY : src/CMakeFiles/first-application.dir/rule
+src/CMakeFiles/basic-tutorial-3.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-3.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-3.dir/rule
 
 # Convenience name for target.
-first-application: src/CMakeFiles/first-application.dir/rule
+basic-tutorial-3: src/CMakeFiles/basic-tutorial-3.dir/rule
 
-.PHONY : first-application
+.PHONY : basic-tutorial-3
 
 # fast build rule for target.
-first-application/fast:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/build
-.PHONY : first-application/fast
+basic-tutorial-3/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-3.dir/build.make src/CMakeFiles/basic-tutorial-3.dir/build
+.PHONY : basic-tutorial-3/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-1.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-1.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-1.dir/rule
+
+# Convenience name for target.
+basic-tutorial-1: src/CMakeFiles/basic-tutorial-1.dir/rule
+
+.PHONY : basic-tutorial-1
+
+# fast build rule for target.
+basic-tutorial-1/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-1.dir/build.make src/CMakeFiles/basic-tutorial-1.dir/build
+.PHONY : basic-tutorial-1/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-4.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-4.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-4.dir/rule
+
+# Convenience name for target.
+basic-tutorial-4: src/CMakeFiles/basic-tutorial-4.dir/rule
+
+.PHONY : basic-tutorial-4
+
+# fast build rule for target.
+basic-tutorial-4/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-4.dir/build.make src/CMakeFiles/basic-tutorial-4.dir/build
+.PHONY : basic-tutorial-4/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-6.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-6.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-6.dir/rule
+
+# Convenience name for target.
+basic-tutorial-6: src/CMakeFiles/basic-tutorial-6.dir/rule
+
+.PHONY : basic-tutorial-6
+
+# fast build rule for target.
+basic-tutorial-6/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-6.dir/build.make src/CMakeFiles/basic-tutorial-6.dir/build
+.PHONY : basic-tutorial-6/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-7.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-7.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-7.dir/rule
+
+# Convenience name for target.
+basic-tutorial-7: src/CMakeFiles/basic-tutorial-7.dir/rule
+
+.PHONY : basic-tutorial-7
+
+# fast build rule for target.
+basic-tutorial-7/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-7.dir/build.make src/CMakeFiles/basic-tutorial-7.dir/build
+.PHONY : basic-tutorial-7/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-2.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-2.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-2.dir/rule
+
+# Convenience name for target.
+basic-tutorial-2: src/CMakeFiles/basic-tutorial-2.dir/rule
+
+.PHONY : basic-tutorial-2
+
+# fast build rule for target.
+basic-tutorial-2/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-2.dir/build.make src/CMakeFiles/basic-tutorial-2.dir/build
+.PHONY : basic-tutorial-2/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-8.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-8.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-8.dir/rule
+
+# Convenience name for target.
+basic-tutorial-8: src/CMakeFiles/basic-tutorial-8.dir/rule
+
+.PHONY : basic-tutorial-8
+
+# fast build rule for target.
+basic-tutorial-8/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-8.dir/build.make src/CMakeFiles/basic-tutorial-8.dir/build
+.PHONY : basic-tutorial-8/fast
+
+# Convenience name for target.
+src/CMakeFiles/basic-tutorial-9.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-9.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-9.dir/rule
+
+# Convenience name for target.
+basic-tutorial-9: src/CMakeFiles/basic-tutorial-9.dir/rule
+
+.PHONY : basic-tutorial-9
+
+# fast build rule for target.
+basic-tutorial-9/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-9.dir/build.make src/CMakeFiles/basic-tutorial-9.dir/build
+.PHONY : basic-tutorial-9/fast
 
 # Convenience name for target.
 src/CMakeFiles/example01.dir/rule:
@@ -216,6 +291,21 @@ example0301/fast:
 .PHONY : example0301/fast
 
 # Convenience name for target.
+src/CMakeFiles/basic-tutorial-5.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/basic-tutorial-5.dir/rule
+.PHONY : src/CMakeFiles/basic-tutorial-5.dir/rule
+
+# Convenience name for target.
+basic-tutorial-5: src/CMakeFiles/basic-tutorial-5.dir/rule
+
+.PHONY : basic-tutorial-5
+
+# fast build rule for target.
+basic-tutorial-5/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-5.dir/build.make src/CMakeFiles/basic-tutorial-5.dir/build
+.PHONY : basic-tutorial-5/fast
+
+# Convenience name for target.
 src/CMakeFiles/example0302.dir/rule:
 	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example0302.dir/rule
 .PHONY : src/CMakeFiles/example0302.dir/rule
@@ -260,35 +350,155 @@ example05/fast:
 	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/build
 .PHONY : example05/fast
 
+# Convenience name for target.
+src/CMakeFiles/first-application.dir/rule:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/first-application.dir/rule
+.PHONY : src/CMakeFiles/first-application.dir/rule
+
+# Convenience name for target.
+first-application: src/CMakeFiles/first-application.dir/rule
+
+.PHONY : first-application
+
+# fast build rule for target.
+first-application/fast:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/build
+.PHONY : first-application/fast
+
 # target to build an object file
-directfbtext.o:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.o
-.PHONY : directfbtext.o
+basic-tutorial-1.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-1.dir/build.make src/CMakeFiles/basic-tutorial-1.dir/basic-tutorial-1.o
+.PHONY : basic-tutorial-1.o
 
 # target to preprocess a source file
-directfbtext.i:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.i
-.PHONY : directfbtext.i
+basic-tutorial-1.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-1.dir/build.make src/CMakeFiles/basic-tutorial-1.dir/basic-tutorial-1.i
+.PHONY : basic-tutorial-1.i
 
 # target to generate assembly for a file
-directfbtext.s:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.s
-.PHONY : directfbtext.s
+basic-tutorial-1.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-1.dir/build.make src/CMakeFiles/basic-tutorial-1.dir/basic-tutorial-1.s
+.PHONY : basic-tutorial-1.s
 
 # target to build an object file
-example-dfbvideosink.o:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.o
-.PHONY : example-dfbvideosink.o
+basic-tutorial-2.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-2.dir/build.make src/CMakeFiles/basic-tutorial-2.dir/basic-tutorial-2.o
+.PHONY : basic-tutorial-2.o
 
 # target to preprocess a source file
-example-dfbvideosink.i:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.i
-.PHONY : example-dfbvideosink.i
+basic-tutorial-2.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-2.dir/build.make src/CMakeFiles/basic-tutorial-2.dir/basic-tutorial-2.i
+.PHONY : basic-tutorial-2.i
 
 # target to generate assembly for a file
-example-dfbvideosink.s:
-	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.s
-.PHONY : example-dfbvideosink.s
+basic-tutorial-2.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-2.dir/build.make src/CMakeFiles/basic-tutorial-2.dir/basic-tutorial-2.s
+.PHONY : basic-tutorial-2.s
+
+# target to build an object file
+basic-tutorial-3.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-3.dir/build.make src/CMakeFiles/basic-tutorial-3.dir/basic-tutorial-3.o
+.PHONY : basic-tutorial-3.o
+
+# target to preprocess a source file
+basic-tutorial-3.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-3.dir/build.make src/CMakeFiles/basic-tutorial-3.dir/basic-tutorial-3.i
+.PHONY : basic-tutorial-3.i
+
+# target to generate assembly for a file
+basic-tutorial-3.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-3.dir/build.make src/CMakeFiles/basic-tutorial-3.dir/basic-tutorial-3.s
+.PHONY : basic-tutorial-3.s
+
+# target to build an object file
+basic-tutorial-4.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-4.dir/build.make src/CMakeFiles/basic-tutorial-4.dir/basic-tutorial-4.o
+.PHONY : basic-tutorial-4.o
+
+# target to preprocess a source file
+basic-tutorial-4.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-4.dir/build.make src/CMakeFiles/basic-tutorial-4.dir/basic-tutorial-4.i
+.PHONY : basic-tutorial-4.i
+
+# target to generate assembly for a file
+basic-tutorial-4.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-4.dir/build.make src/CMakeFiles/basic-tutorial-4.dir/basic-tutorial-4.s
+.PHONY : basic-tutorial-4.s
+
+# target to build an object file
+basic-tutorial-5.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-5.dir/build.make src/CMakeFiles/basic-tutorial-5.dir/basic-tutorial-5.o
+.PHONY : basic-tutorial-5.o
+
+# target to preprocess a source file
+basic-tutorial-5.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-5.dir/build.make src/CMakeFiles/basic-tutorial-5.dir/basic-tutorial-5.i
+.PHONY : basic-tutorial-5.i
+
+# target to generate assembly for a file
+basic-tutorial-5.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-5.dir/build.make src/CMakeFiles/basic-tutorial-5.dir/basic-tutorial-5.s
+.PHONY : basic-tutorial-5.s
+
+# target to build an object file
+basic-tutorial-6.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-6.dir/build.make src/CMakeFiles/basic-tutorial-6.dir/basic-tutorial-6.o
+.PHONY : basic-tutorial-6.o
+
+# target to preprocess a source file
+basic-tutorial-6.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-6.dir/build.make src/CMakeFiles/basic-tutorial-6.dir/basic-tutorial-6.i
+.PHONY : basic-tutorial-6.i
+
+# target to generate assembly for a file
+basic-tutorial-6.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-6.dir/build.make src/CMakeFiles/basic-tutorial-6.dir/basic-tutorial-6.s
+.PHONY : basic-tutorial-6.s
+
+# target to build an object file
+basic-tutorial-7.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-7.dir/build.make src/CMakeFiles/basic-tutorial-7.dir/basic-tutorial-7.o
+.PHONY : basic-tutorial-7.o
+
+# target to preprocess a source file
+basic-tutorial-7.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-7.dir/build.make src/CMakeFiles/basic-tutorial-7.dir/basic-tutorial-7.i
+.PHONY : basic-tutorial-7.i
+
+# target to generate assembly for a file
+basic-tutorial-7.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-7.dir/build.make src/CMakeFiles/basic-tutorial-7.dir/basic-tutorial-7.s
+.PHONY : basic-tutorial-7.s
+
+# target to build an object file
+basic-tutorial-8.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-8.dir/build.make src/CMakeFiles/basic-tutorial-8.dir/basic-tutorial-8.o
+.PHONY : basic-tutorial-8.o
+
+# target to preprocess a source file
+basic-tutorial-8.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-8.dir/build.make src/CMakeFiles/basic-tutorial-8.dir/basic-tutorial-8.i
+.PHONY : basic-tutorial-8.i
+
+# target to generate assembly for a file
+basic-tutorial-8.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-8.dir/build.make src/CMakeFiles/basic-tutorial-8.dir/basic-tutorial-8.s
+.PHONY : basic-tutorial-8.s
+
+# target to build an object file
+basic-tutorial-9.o:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-9.dir/build.make src/CMakeFiles/basic-tutorial-9.dir/basic-tutorial-9.o
+.PHONY : basic-tutorial-9.o
+
+# target to preprocess a source file
+basic-tutorial-9.i:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-9.dir/build.make src/CMakeFiles/basic-tutorial-9.dir/basic-tutorial-9.i
+.PHONY : basic-tutorial-9.i
+
+# target to generate assembly for a file
+basic-tutorial-9.s:
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/basic-tutorial-9.dir/build.make src/CMakeFiles/basic-tutorial-9.dir/basic-tutorial-9.s
+.PHONY : basic-tutorial-9.s
 
 # target to build an object file
 example01-simple-initialization.o:
@@ -416,24 +626,52 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... directfbtext"
-	@echo "... example-dfbvideosink"
 	@echo "... gst-vr-plugin-player"
-	@echo "... first-application"
+	@echo "... basic-tutorial-3"
+	@echo "... rebuild_cache"
+	@echo "... basic-tutorial-1"
+	@echo "... basic-tutorial-4"
+	@echo "... basic-tutorial-6"
+	@echo "... basic-tutorial-7"
+	@echo "... basic-tutorial-2"
+	@echo "... basic-tutorial-8"
+	@echo "... basic-tutorial-9"
 	@echo "... example01"
 	@echo "... example02"
 	@echo "... example0301"
+	@echo "... basic-tutorial-5"
 	@echo "... example0302"
 	@echo "... example04"
 	@echo "... example05"
-	@echo "... directfbtext.o"
-	@echo "... directfbtext.i"
-	@echo "... directfbtext.s"
-	@echo "... example-dfbvideosink.o"
-	@echo "... example-dfbvideosink.i"
-	@echo "... example-dfbvideosink.s"
+	@echo "... first-application"
+	@echo "... basic-tutorial-1.o"
+	@echo "... basic-tutorial-1.i"
+	@echo "... basic-tutorial-1.s"
+	@echo "... basic-tutorial-2.o"
+	@echo "... basic-tutorial-2.i"
+	@echo "... basic-tutorial-2.s"
+	@echo "... basic-tutorial-3.o"
+	@echo "... basic-tutorial-3.i"
+	@echo "... basic-tutorial-3.s"
+	@echo "... basic-tutorial-4.o"
+	@echo "... basic-tutorial-4.i"
+	@echo "... basic-tutorial-4.s"
+	@echo "... basic-tutorial-5.o"
+	@echo "... basic-tutorial-5.i"
+	@echo "... basic-tutorial-5.s"
+	@echo "... basic-tutorial-6.o"
+	@echo "... basic-tutorial-6.i"
+	@echo "... basic-tutorial-6.s"
+	@echo "... basic-tutorial-7.o"
+	@echo "... basic-tutorial-7.i"
+	@echo "... basic-tutorial-7.s"
+	@echo "... basic-tutorial-8.o"
+	@echo "... basic-tutorial-8.i"
+	@echo "... basic-tutorial-8.s"
+	@echo "... basic-tutorial-9.o"
+	@echo "... basic-tutorial-9.i"
+	@echo "... basic-tutorial-9.s"
 	@echo "... example01-simple-initialization.o"
 	@echo "... example01-simple-initialization.i"
 	@echo "... example01-simple-initialization.s"

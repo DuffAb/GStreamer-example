@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ldf/workspace/gstreamer/gst-example/src/example04-use_element01.c
+/home/ldf/workspace/mygstreamer/GStreamer-example/src/example04-use_element01.c
 gst/gst.h
 -
 
@@ -702,19 +702,11 @@ gobject/gvalue.h
 gobject/gvalue.h
 -
 
-/usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
-glib/gmacros.h
--
-limits.h
--
-float.h
--
-
-/usr/local/include/gstreamer-1.0/gst/glib-compat.h
+/usr/include/gstreamer-1.0/gst/glib-compat.h
 glib.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gst.h
+/usr/include/gstreamer-1.0/gst/gst.h
 glib.h
 -
 gst/glib-compat.h
@@ -844,13 +836,13 @@ gst/gstparse.h
 gst/gstcompat.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstallocator.h
+/usr/include/gstreamer-1.0/gst/gstallocator.h
 gst/gstmemory.h
 -
 gst/gstobject.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstatomicqueue.h
+/usr/include/gstreamer-1.0/gst/gstatomicqueue.h
 glib.h
 -
 glib-object.h
@@ -858,7 +850,7 @@ glib-object.h
 gst/gstconfig.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstbin.h
+/usr/include/gstreamer-1.0/gst/gstbin.h
 gst/gstelement.h
 -
 gst/gstiterator.h
@@ -866,7 +858,7 @@ gst/gstiterator.h
 gst/gstbus.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstbuffer.h
+/usr/include/gstreamer-1.0/gst/gstbuffer.h
 gst/gstminiobject.h
 -
 gst/gstclock.h
@@ -880,11 +872,11 @@ gst/gstmeta.h
 gst/gstmeta.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstbufferlist.h
+/usr/include/gstreamer-1.0/gst/gstbufferlist.h
 gst/gstbuffer.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstbufferpool.h
+/usr/include/gstreamer-1.0/gst/gstbufferpool.h
 gst/gstminiobject.h
 -
 gst/gstpad.h
@@ -892,13 +884,13 @@ gst/gstpad.h
 gst/gstbuffer.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstbus.h
+/usr/include/gstreamer-1.0/gst/gstbus.h
 gst/gstmessage.h
 -
 gst/gstclock.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstcaps.h
+/usr/include/gstreamer-1.0/gst/gstcaps.h
 gst/gstconfig.h
 -
 gst/gstminiobject.h
@@ -910,7 +902,7 @@ gst/gstcapsfeatures.h
 gst/glib-compat.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstcapsfeatures.h
+/usr/include/gstreamer-1.0/gst/gstcapsfeatures.h
 gst/gstconfig.h
 -
 gst/glib-compat.h
@@ -920,13 +912,13 @@ glib-object.h
 glib.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstchildproxy.h
+/usr/include/gstreamer-1.0/gst/gstchildproxy.h
 glib-object.h
 -
 gst/gst.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstclock.h
+/usr/include/gstreamer-1.0/gst/gstclock.h
 gst/gstconfig.h
 -
 glib.h
@@ -934,15 +926,15 @@ glib.h
 gst/gstobject.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstcompat.h
+/usr/include/gstreamer-1.0/gst/gstcompat.h
 glib.h
 -
 gst/gstpad.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstconfig.h
+/usr/include/gstreamer-1.0/gst/gstconfig.h
 
-/usr/local/include/gstreamer-1.0/gst/gstcontext.h
+/usr/include/gstreamer-1.0/gst/gstcontext.h
 glib.h
 -
 gst/gstminiobject.h
@@ -950,7 +942,7 @@ gst/gstminiobject.h
 gst/gststructure.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstcontrolbinding.h
+/usr/include/gstreamer-1.0/gst/gstcontrolbinding.h
 gst/gstconfig.h
 -
 glib-object.h
@@ -958,7 +950,7 @@ glib-object.h
 gst/gstcontrolsource.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstcontrolsource.h
+/usr/include/gstreamer-1.0/gst/gstcontrolsource.h
 gst/gstconfig.h
 -
 glib-object.h
@@ -966,7 +958,7 @@ glib-object.h
 gst/gstclock.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdatetime.h
+/usr/include/gstreamer-1.0/gst/gstdatetime.h
 gst/gstconfig.h
 -
 time.h
@@ -976,7 +968,7 @@ glib.h
 glib-object.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdebugutils.h
+/usr/include/gstreamer-1.0/gst/gstdebugutils.h
 glib.h
 -
 glib-object.h
@@ -986,13 +978,13 @@ gst/gstconfig.h
 gst/gstbin.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdevice.h
+/usr/include/gstreamer-1.0/gst/gstdevice.h
 gst/gstelement.h
 -
 gst/gstcaps.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdevicemonitor.h
+/usr/include/gstreamer-1.0/gst/gstdevicemonitor.h
 gst/gstobject.h
 -
 gst/gstdevice.h
@@ -1002,13 +994,13 @@ gst/gstdeviceprovider.h
 gst/gstdeviceproviderfactory.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdeviceprovider.h
+/usr/include/gstreamer-1.0/gst/gstdeviceprovider.h
 gst/gstelement.h
 -
 gst/gstdeviceproviderfactory.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h
+/usr/include/gstreamer-1.0/gst/gstdeviceproviderfactory.h
 gst/gstconfig.h
 -
 gst/gstplugin.h
@@ -1018,7 +1010,7 @@ gst/gstpluginfeature.h
 gst/gstdeviceprovider.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstdynamictypefactory.h
+/usr/include/gstreamer-1.0/gst/gstdynamictypefactory.h
 gst/gstconfig.h
 -
 gst/gstplugin.h
@@ -1026,7 +1018,7 @@ gst/gstplugin.h
 gst/gstpluginfeature.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstelement.h
+/usr/include/gstreamer-1.0/gst/gstelement.h
 glib.h
 -
 gst/gstconfig.h
@@ -1056,7 +1048,7 @@ gst/gsttaglist.h
 gst/gstcontext.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstelementfactory.h
+/usr/include/gstreamer-1.0/gst/gstelementfactory.h
 gst/gstconfig.h
 -
 gst/gstelement.h
@@ -1070,17 +1062,17 @@ gst/gstpluginfeature.h
 gst/gsturi.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstelementmetadata.h
+/usr/include/gstreamer-1.0/gst/gstelementmetadata.h
 glib.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstenumtypes.h
+/usr/include/gstreamer-1.0/gst/gstenumtypes.h
 glib-object.h
 -
 gst/gstconfig.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsterror.h
+/usr/include/gstreamer-1.0/gst/gsterror.h
 glib.h
 -
 glib-object.h
@@ -1088,7 +1080,7 @@ glib-object.h
 errno.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstevent.h
+/usr/include/gstreamer-1.0/gst/gstevent.h
 gst/gstminiobject.h
 -
 gst/gstformat.h
@@ -1114,17 +1106,17 @@ gst/gsttoc.h
 gst/gststreamcollection.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstformat.h
+/usr/include/gstreamer-1.0/gst/gstformat.h
 glib.h
 -
 gst/gstiterator.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstghostpad.h
+/usr/include/gstreamer-1.0/gst/gstghostpad.h
 gst/gstpad.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstinfo.h
+/usr/include/gstreamer-1.0/gst/gstinfo.h
 glib.h
 -
 glib-object.h
@@ -1132,17 +1124,17 @@ glib-object.h
 gst/gstconfig.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstiterator.h
+/usr/include/gstreamer-1.0/gst/gstiterator.h
 glib-object.h
 -
 gst/gstconfig.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstmacros.h
+/usr/include/gstreamer-1.0/gst/gstmacros.h
 glib.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstmemory.h
+/usr/include/gstreamer-1.0/gst/gstmemory.h
 gst/gstconfig.h
 -
 glib-object.h
@@ -1152,7 +1144,7 @@ gst/gstminiobject.h
 gst/gstobject.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstmessage.h
+/usr/include/gstreamer-1.0/gst/gstmessage.h
 glib.h
 -
 gst/gstminiobject.h
@@ -1178,19 +1170,19 @@ gst/gststreamcollection.h
 gst/gstquery.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstmeta.h
+/usr/include/gstreamer-1.0/gst/gstmeta.h
 glib.h
 -
 gst/gstbuffer.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstminiobject.h
+/usr/include/gstreamer-1.0/gst/gstminiobject.h
 gst/gstconfig.h
 -
 glib-object.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstobject.h
+/usr/include/gstreamer-1.0/gst/gstobject.h
 gst/gstconfig.h
 -
 glib-object.h
@@ -1200,7 +1192,7 @@ gst/gstcontrolbinding.h
 gst/gstcontrolsource.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpad.h
+/usr/include/gstreamer-1.0/gst/gstpad.h
 gst/gstconfig.h
 -
 glib.h
@@ -1222,7 +1214,7 @@ gst/gstquery.h
 gst/gsttask.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpadtemplate.h
+/usr/include/gstreamer-1.0/gst/gstpadtemplate.h
 gst/gstconfig.h
 -
 gst/gstobject.h
@@ -1238,19 +1230,19 @@ gst/gstquery.h
 gst/gsttask.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstparamspecs.h
+/usr/include/gstreamer-1.0/gst/gstparamspecs.h
 gst/gstvalue.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstparse.h
+/usr/include/gstreamer-1.0/gst/gstparse.h
 gst/gstelement.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpipeline.h
+/usr/include/gstreamer-1.0/gst/gstpipeline.h
 gst/gstbin.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstplugin.h
+/usr/include/gstreamer-1.0/gst/gstplugin.h
 gst/gstconfig.h
 -
 gst/gstobject.h
@@ -1260,7 +1252,7 @@ gst/gstmacros.h
 gst/gststructure.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpluginfeature.h
+/usr/include/gstreamer-1.0/gst/gstpluginfeature.h
 glib-object.h
 -
 gst/gstobject.h
@@ -1268,7 +1260,7 @@ gst/gstobject.h
 gst/gstplugin.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpoll.h
+/usr/include/gstreamer-1.0/gst/gstpoll.h
 glib.h
 -
 glib-object.h
@@ -1276,21 +1268,21 @@ glib-object.h
 gst/gstclock.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpreset.h
+/usr/include/gstreamer-1.0/gst/gstpreset.h
 glib-object.h
 -
 gst/gstconfig.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstpromise.h
+/usr/include/gstreamer-1.0/gst/gstpromise.h
 gst/gst.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstprotection.h
+/usr/include/gstreamer-1.0/gst/gstprotection.h
 gst/gst.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstquery.h
+/usr/include/gstreamer-1.0/gst/gstquery.h
 glib.h
 -
 glib-object.h
@@ -1314,7 +1306,7 @@ gst/gsttoc.h
 gst/gstcontext.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstregistry.h
+/usr/include/gstreamer-1.0/gst/gstregistry.h
 gst/gstconfig.h
 -
 gst/gstplugin.h
@@ -1322,7 +1314,7 @@ gst/gstplugin.h
 gst/gstpluginfeature.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstsample.h
+/usr/include/gstreamer-1.0/gst/gstsample.h
 gst/gstbuffer.h
 -
 gst/gstbufferlist.h
@@ -1332,11 +1324,11 @@ gst/gstcaps.h
 gst/gstsegment.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstsegment.h
+/usr/include/gstreamer-1.0/gst/gstsegment.h
 gst/gstformat.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gststreamcollection.h
+/usr/include/gstreamer-1.0/gst/gststreamcollection.h
 gst/gstobject.h
 -
 gst/gststreamcollection.h
@@ -1344,13 +1336,13 @@ gst/gststreamcollection.h
 gst/gststreams.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gststreams.h
+/usr/include/gstreamer-1.0/gst/gststreams.h
 gst/gstobject.h
 -
 gst/gstevent.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gststructure.h
+/usr/include/gstreamer-1.0/gst/gststructure.h
 gst/gstconfig.h
 -
 glib-object.h
@@ -1362,11 +1354,11 @@ gst/gstdatetime.h
 gst/glib-compat.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstsystemclock.h
+/usr/include/gstreamer-1.0/gst/gstsystemclock.h
 gst/gstclock.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttaglist.h
+/usr/include/gstreamer-1.0/gst/gsttaglist.h
 gst/gstdatetime.h
 -
 gst/gstsample.h
@@ -1376,21 +1368,21 @@ gst/gstbuffer.h
 gst/glib-compat.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttagsetter.h
+/usr/include/gstreamer-1.0/gst/gsttagsetter.h
 gst/gst.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttask.h
+/usr/include/gstreamer-1.0/gst/gsttask.h
 gst/gstobject.h
 -
 gst/gsttaskpool.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttaskpool.h
+/usr/include/gstreamer-1.0/gst/gsttaskpool.h
 gst/gstobject.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttoc.h
+/usr/include/gstreamer-1.0/gst/gsttoc.h
 gst/gstconfig.h
 -
 gst/gstminiobject.h
@@ -1402,11 +1394,11 @@ gst/gsttaglist.h
 gst/gstformat.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttocsetter.h
+/usr/include/gstreamer-1.0/gst/gsttocsetter.h
 gst/gst.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttracer.h
+/usr/include/gstreamer-1.0/gst/gsttracer.h
 glib.h
 -
 glib-object.h
@@ -1416,7 +1408,7 @@ gst/gstobject.h
 gst/gstconfig.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttracerfactory.h
+/usr/include/gstreamer-1.0/gst/gsttracerfactory.h
 gst/gstcaps.h
 -
 gst/gstplugin.h
@@ -1424,11 +1416,11 @@ gst/gstplugin.h
 gst/gstpluginfeature.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttracerrecord.h
+/usr/include/gstreamer-1.0/gst/gsttracerrecord.h
 gst/gstobject.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttypefind.h
+/usr/include/gstreamer-1.0/gst/gsttypefind.h
 gst/gstcaps.h
 -
 gst/gstplugin.h
@@ -1436,7 +1428,7 @@ gst/gstplugin.h
 gst/gstpluginfeature.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsttypefindfactory.h
+/usr/include/gstreamer-1.0/gst/gsttypefindfactory.h
 gst/gstcaps.h
 -
 gst/gstplugin.h
@@ -1446,7 +1438,7 @@ gst/gstpluginfeature.h
 gst/gsttypefind.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gsturi.h
+/usr/include/gstreamer-1.0/gst/gsturi.h
 glib.h
 -
 glib-object.h
@@ -1456,9 +1448,9 @@ gst/gstconfig.h
 gst/gstelement.h
 -
 gstminiobject.h
-/usr/local/include/gstreamer-1.0/gst/gstminiobject.h
+/usr/include/gstreamer-1.0/gst/gstminiobject.h
 
-/usr/local/include/gstreamer-1.0/gst/gstutils.h
+/usr/include/gstreamer-1.0/gst/gstutils.h
 glib.h
 -
 gst/gstconfig.h
@@ -1468,7 +1460,7 @@ gst/gstbin.h
 gst/gstparse.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstvalue.h
+/usr/include/gstreamer-1.0/gst/gstvalue.h
 gst/gstconfig.h
 -
 gst/gstcaps.h
@@ -1478,7 +1470,15 @@ gst/gststructure.h
 gst/gstcapsfeatures.h
 -
 
-/usr/local/include/gstreamer-1.0/gst/gstversion.h
+/usr/include/gstreamer-1.0/gst/gstversion.h
 glib.h
+-
+
+/usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h
+glib/gmacros.h
+-
+limits.h
+-
+float.h
 -
 
