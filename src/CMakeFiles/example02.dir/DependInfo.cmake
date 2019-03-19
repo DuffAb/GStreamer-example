@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ldf/workspace/gstreamer/gst-example/src/example02-goption-interface.c" "/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/example02.dir/example02-goption-interface.o"
+  "/home/ldf/workspace/mygstreamer/GStreamer-example/src/example02-goption-interface.c" "/home/ldf/workspace/mygstreamer/GStreamer-example/src/CMakeFiles/example02.dir/example02-goption-interface.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

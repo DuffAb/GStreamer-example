@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ldf/workspace/gstreamer/gst-example
+CMAKE_SOURCE_DIR = /home/ldf/workspace/mygstreamer/GStreamer-example
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ldf/workspace/gstreamer/gst-example
+CMAKE_BINARY_DIR = /home/ldf/workspace/mygstreamer/GStreamer-example
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ldf/workspace/gstreamer/gst-example && $(CMAKE_COMMAND) -E cmake_progress_start /home/ldf/workspace/gstreamer/gst-example/CMakeFiles /home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/progress.marks
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ldf/workspace/gstreamer/gst-example/CMakeFiles 0
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(CMAKE_COMMAND) -E cmake_progress_start /home/ldf/workspace/mygstreamer/GStreamer-example/CMakeFiles /home/ldf/workspace/mygstreamer/GStreamer-example/src/CMakeFiles/progress.marks
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ldf/workspace/mygstreamer/GStreamer-example/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/directfbtext.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/directfbtext.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/directfbtext.dir/rule
 .PHONY : src/CMakeFiles/directfbtext.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ directfbtext: src/CMakeFiles/directfbtext.dir/rule
 
 # fast build rule for target.
 directfbtext/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/build
 .PHONY : directfbtext/fast
 
 # Convenience name for target.
 src/CMakeFiles/example-dfbvideosink.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example-dfbvideosink.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example-dfbvideosink.dir/rule
 .PHONY : src/CMakeFiles/example-dfbvideosink.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ example-dfbvideosink: src/CMakeFiles/example-dfbvideosink.dir/rule
 
 # fast build rule for target.
 example-dfbvideosink/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/build
 .PHONY : example-dfbvideosink/fast
 
 # Convenience name for target.
 src/CMakeFiles/gst-vr-plugin-player.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/gst-vr-plugin-player.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/gst-vr-plugin-player.dir/rule
 .PHONY : src/CMakeFiles/gst-vr-plugin-player.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ gst-vr-plugin-player: src/CMakeFiles/gst-vr-plugin-player.dir/rule
 
 # fast build rule for target.
 gst-vr-plugin-player/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/build
 .PHONY : gst-vr-plugin-player/fast
 
 # Convenience name for target.
 src/CMakeFiles/first-application.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/first-application.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/first-application.dir/rule
 .PHONY : src/CMakeFiles/first-application.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ first-application: src/CMakeFiles/first-application.dir/rule
 
 # fast build rule for target.
 first-application/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/build
 .PHONY : first-application/fast
 
 # Convenience name for target.
 src/CMakeFiles/example01.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example01.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example01.dir/rule
 .PHONY : src/CMakeFiles/example01.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ example01: src/CMakeFiles/example01.dir/rule
 
 # fast build rule for target.
 example01/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/build
 .PHONY : example01/fast
 
 # Convenience name for target.
 src/CMakeFiles/example02.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example02.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example02.dir/rule
 .PHONY : src/CMakeFiles/example02.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ example02: src/CMakeFiles/example02.dir/rule
 
 # fast build rule for target.
 example02/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/build
 .PHONY : example02/fast
 
 # Convenience name for target.
 src/CMakeFiles/example0301.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example0301.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example0301.dir/rule
 .PHONY : src/CMakeFiles/example0301.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ example0301: src/CMakeFiles/example0301.dir/rule
 
 # fast build rule for target.
 example0301/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/build
 .PHONY : example0301/fast
 
 # Convenience name for target.
 src/CMakeFiles/example0302.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example0302.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example0302.dir/rule
 .PHONY : src/CMakeFiles/example0302.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ example0302: src/CMakeFiles/example0302.dir/rule
 
 # fast build rule for target.
 example0302/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/build
 .PHONY : example0302/fast
 
 # Convenience name for target.
 src/CMakeFiles/example04.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example04.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example04.dir/rule
 .PHONY : src/CMakeFiles/example04.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ example04: src/CMakeFiles/example04.dir/rule
 
 # fast build rule for target.
 example04/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/build
 .PHONY : example04/fast
 
 # Convenience name for target.
 src/CMakeFiles/example05.dir/rule:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example05.dir/rule
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/example05.dir/rule
 .PHONY : src/CMakeFiles/example05.dir/rule
 
 # Convenience name for target.
@@ -257,157 +257,157 @@ example05: src/CMakeFiles/example05.dir/rule
 
 # fast build rule for target.
 example05/fast:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/build
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/build
 .PHONY : example05/fast
 
 # target to build an object file
 directfbtext.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.o
 .PHONY : directfbtext.o
 
 # target to preprocess a source file
 directfbtext.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.i
 .PHONY : directfbtext.i
 
 # target to generate assembly for a file
 directfbtext.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/directfbtext.dir/build.make src/CMakeFiles/directfbtext.dir/directfbtext.s
 .PHONY : directfbtext.s
 
 # target to build an object file
 example-dfbvideosink.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.o
 .PHONY : example-dfbvideosink.o
 
 # target to preprocess a source file
 example-dfbvideosink.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.i
 .PHONY : example-dfbvideosink.i
 
 # target to generate assembly for a file
 example-dfbvideosink.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example-dfbvideosink.dir/build.make src/CMakeFiles/example-dfbvideosink.dir/example-dfbvideosink.s
 .PHONY : example-dfbvideosink.s
 
 # target to build an object file
 example01-simple-initialization.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/example01-simple-initialization.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/example01-simple-initialization.o
 .PHONY : example01-simple-initialization.o
 
 # target to preprocess a source file
 example01-simple-initialization.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/example01-simple-initialization.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/example01-simple-initialization.i
 .PHONY : example01-simple-initialization.i
 
 # target to generate assembly for a file
 example01-simple-initialization.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/example01-simple-initialization.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example01.dir/build.make src/CMakeFiles/example01.dir/example01-simple-initialization.s
 .PHONY : example01-simple-initialization.s
 
 # target to build an object file
 example02-goption-interface.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/example02-goption-interface.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/example02-goption-interface.o
 .PHONY : example02-goption-interface.o
 
 # target to preprocess a source file
 example02-goption-interface.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/example02-goption-interface.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/example02-goption-interface.i
 .PHONY : example02-goption-interface.i
 
 # target to generate assembly for a file
 example02-goption-interface.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/example02-goption-interface.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example02.dir/build.make src/CMakeFiles/example02.dir/example02-goption-interface.s
 .PHONY : example02-goption-interface.s
 
 # target to build an object file
 example03-create_gstelement01.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/example03-create_gstelement01.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/example03-create_gstelement01.o
 .PHONY : example03-create_gstelement01.o
 
 # target to preprocess a source file
 example03-create_gstelement01.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/example03-create_gstelement01.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/example03-create_gstelement01.i
 .PHONY : example03-create_gstelement01.i
 
 # target to generate assembly for a file
 example03-create_gstelement01.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/example03-create_gstelement01.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0301.dir/build.make src/CMakeFiles/example0301.dir/example03-create_gstelement01.s
 .PHONY : example03-create_gstelement01.s
 
 # target to build an object file
 example03-create_gstelement02.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/example03-create_gstelement02.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/example03-create_gstelement02.o
 .PHONY : example03-create_gstelement02.o
 
 # target to preprocess a source file
 example03-create_gstelement02.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/example03-create_gstelement02.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/example03-create_gstelement02.i
 .PHONY : example03-create_gstelement02.i
 
 # target to generate assembly for a file
 example03-create_gstelement02.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/example03-create_gstelement02.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example0302.dir/build.make src/CMakeFiles/example0302.dir/example03-create_gstelement02.s
 .PHONY : example03-create_gstelement02.s
 
 # target to build an object file
 example04-use_element01.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04-use_element01.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04-use_element01.o
 .PHONY : example04-use_element01.o
 
 # target to preprocess a source file
 example04-use_element01.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04-use_element01.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04-use_element01.i
 .PHONY : example04-use_element01.i
 
 # target to generate assembly for a file
 example04-use_element01.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04-use_element01.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example04.dir/build.make src/CMakeFiles/example04.dir/example04-use_element01.s
 .PHONY : example04-use_element01.s
 
 # target to build an object file
 example05-get_element_info_by_factory.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/example05-get_element_info_by_factory.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/example05-get_element_info_by_factory.o
 .PHONY : example05-get_element_info_by_factory.o
 
 # target to preprocess a source file
 example05-get_element_info_by_factory.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/example05-get_element_info_by_factory.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/example05-get_element_info_by_factory.i
 .PHONY : example05-get_element_info_by_factory.i
 
 # target to generate assembly for a file
 example05-get_element_info_by_factory.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/example05-get_element_info_by_factory.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/example05.dir/build.make src/CMakeFiles/example05.dir/example05-get_element_info_by_factory.s
 .PHONY : example05-get_element_info_by_factory.s
 
 # target to build an object file
 first-application.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/first-application.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/first-application.o
 .PHONY : first-application.o
 
 # target to preprocess a source file
 first-application.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/first-application.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/first-application.i
 .PHONY : first-application.i
 
 # target to generate assembly for a file
 first-application.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/first-application.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/first-application.dir/build.make src/CMakeFiles/first-application.dir/first-application.s
 .PHONY : first-application.s
 
 # target to build an object file
 gst-vr-plugin-player.o:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.o
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.o
 .PHONY : gst-vr-plugin-player.o
 
 # target to preprocess a source file
 gst-vr-plugin-player.i:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.i
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.i
 .PHONY : gst-vr-plugin-player.i
 
 # target to generate assembly for a file
 gst-vr-plugin-player.s:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.s
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(MAKE) -f src/CMakeFiles/gst-vr-plugin-player.dir/build.make src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.s
 .PHONY : gst-vr-plugin-player.s
 
 # Help Target
@@ -469,6 +469,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ldf/workspace/gstreamer/gst-example && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ldf/workspace/mygstreamer/GStreamer-example && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

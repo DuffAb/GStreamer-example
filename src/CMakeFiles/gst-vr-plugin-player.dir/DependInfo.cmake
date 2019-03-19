@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ldf/workspace/gstreamer/gst-example/src/gst-vr-plugin-player.c" "/home/ldf/workspace/gstreamer/gst-example/src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.o"
+  "/home/ldf/workspace/mygstreamer/GStreamer-example/src/gst-vr-plugin-player.c" "/home/ldf/workspace/mygstreamer/GStreamer-example/src/CMakeFiles/gst-vr-plugin-player.dir/gst-vr-plugin-player.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

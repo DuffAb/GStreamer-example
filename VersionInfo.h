@@ -50,7 +50,7 @@
 #define FILE_VERSION_RESOURCE_STR           FILE_VERSION_FULL_STR "\0"
 
 #ifndef PRODUCT_ICON
-#define PRODUCT_ICON "/home/ldf/workspace/gstreamer/gst-example/product.ico"
+#define PRODUCT_ICON "/home/ldf/workspace/mygstreamer/GStreamer-example/product.ico"
 #endif
 
 #ifndef PRODUCT_COMMENTS
@@ -62,7 +62,7 @@
 #endif
 
 #ifndef PRODUCT_COMPANY_COPYRIGHT
-#define PRODUCT_COMPANY_COPYRIGHT  " (C) Copyright 2018\0"
+#define PRODUCT_COMPANY_COPYRIGHT  " (C) Copyright 2019\0"
 #endif
 
 #ifndef PRODUCT_FILE_DESCRIPTION
