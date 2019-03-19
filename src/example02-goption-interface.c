@@ -8,12 +8,8 @@ main (int argc, char *argv[])
   GOptionContext *ctx;
   GError *err = NULL;
   GOptionEntry entries[] = {
-    { "silent", 's', 0, G_OPTION_ARG_NONE, &silent,
-      "do not output status information", NULL
-    },
-    { "output", 'o', 0, G_OPTION_ARG_STRING, &savefile,
-      "save xml representation of pipeline to FILE and exit", "FILE"
-    },
+    { "silent", 's', 0, G_OPTION_ARG_NONE, &silent, "do not output status information", NULL },
+    { "output", 'o', 0, G_OPTION_ARG_STRING, &savefile, "save xml representation of pipeline to FILE and exit", "FILE" },
     { NULL }
   };
 
